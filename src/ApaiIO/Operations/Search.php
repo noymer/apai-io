@@ -265,7 +265,7 @@ class Search extends AbstractOperation
      */
     public function setSort($sort)
     {
-      $this->parameter['Sort'] = $sort;
+      $this->parameters['Sort'] = $sort;
 
       return $this;
     }
